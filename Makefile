@@ -11,9 +11,6 @@ CFLAGS = -Wall -Werror -g
 	elif [ -f "$@.cpp" ]; then \
 		echo "Compiling $@.cpp with $(COMPILER_FOR_CPP)"; \
 		$(COMPILER_FOR_CPP) $(CFLAGS) $@.cpp -o $@; \
-	else \
-		echo "Error: No source file named $@.c or $@.cpp"; \
-		exit 1; \
 	fi
 
 
