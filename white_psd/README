@@ -1,0 +1,5 @@
+07int1:
+
+Our first thoughts of defining an "f12" interface, and how to implement
+the binding operation of this interface in plain C in module f12.[ch],
+using libdl.
